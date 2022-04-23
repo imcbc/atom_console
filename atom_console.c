@@ -570,7 +570,7 @@ void atom_console()
                     
                     int break_flag = 0;
 
-                    for (i = 0; i < CONSOLE_HISTORY_MAX - 1; i++)
+                    for (i = 0; i < CONSOLE_HISTORY_MAX; i++)
                     {
                         if (console_history[refer_idx][0])
                         {
