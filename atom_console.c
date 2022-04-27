@@ -699,7 +699,10 @@ void atom_console()
                 if(console_history[i][0])
                 {
                     if(0 == strcmp(console_history[i], console_buf))
+                    {
+                        console_history_refer_idx = i;
                         break;
+                    }
                 }
             }
 
